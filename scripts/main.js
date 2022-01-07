@@ -1,6 +1,3 @@
-const myHeading = document.querySelector('h1');
-myHeading.textContent = 'Hello world!';
-
 // Define a Function
  function sayOuch() {
  	alert('Ouch! Stop poking me!');
