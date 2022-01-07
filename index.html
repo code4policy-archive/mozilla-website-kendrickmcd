@@ -9,7 +9,13 @@
 </head>
 <body>
 	<h1>Mozilla is cool.</h1>
-	<img src="images/firefox-icon.png" alt="The Firefox logo: a flaming fox surrounding the Earth.">
+
+	<div class="text-center">
+		<button onclick="displayfox()">Check out our Fox</button>
+		<button onclick="hidefox()">Hide our Fox</button>
+	</div>
+
+	<img id= "foximg" src="foximg" style="display:none;">
 
     <p>At Mozilla, we’re a global community of</p>
 
@@ -44,6 +50,8 @@
 	<p>Quisque fermentum commodo risus, in congue tellus commodo mattis. Integer sed volutpat velit, quis pretium turpis. Ut at dui eu lacus tincidunt congue eget at dui. Aliquam erat volutpat. Quisque eu justo tellus. Integer sollicitudin blandit eros non laoreet. Proin eget dui at neque laoreet porta ac pharetra quam. Duis at lorem malesuada, egestas nunc eu, molestie mauris. Mauris et vulputate quam. Vestibulum fermentum augue sed erat fringilla, vitae ultricies odio ultrices. Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus mollis tincidunt finibus. Praesent sed convallis justo. Suspendisse tincidunt faucibus facilisis. Quisque cursus eros eget nibh imperdiet gravida. Nam mauris ligula, bibendum quis tortor nec, maximus viverra nunc.</p>
 
 	<p class="hidden">Thanks for reading!</p>
+
+<script src="scripts/main.js"></script>
 
   </body>
 </html>
