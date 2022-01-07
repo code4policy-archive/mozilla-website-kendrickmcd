@@ -32,6 +32,13 @@ h1	{
 	text-shadow: 3px 3px 1px black;
  }
 
+.text-center {
+	color: #00539F;
+
+  	margin-bottom: 20px;
+  	text-align: center;
+}
+
 body {
 	width: 600px;
 	margin: 0 auto;
