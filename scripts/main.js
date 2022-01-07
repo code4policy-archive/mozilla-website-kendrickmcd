@@ -12,14 +12,16 @@ myHeading.textContent = 'Hello world!';
  // Assign the function to the onclick event on that element
  foxImage.onclick = sayOuch;
 
- function displayfox() {
-	var sourceOfPicture = "images/firefox-icon.png";
-  	var img = document.getElementById('foximg')
-  	img.src = sourceOfPicture;
-  	img.style.display = "block";
- }
-
- function hidefox() {
-  	var img = document.getElementById('foximg')
-  	img.style.display = "none";
- }
+// Define a function to show and hide the fox image
+document.getElementById("foxbutton").addEventListener("click",
+ function (event) {
+ 	if (event.target.value === "Check Out Our Fox") {
+ 		document.getElementById('foximg').style.display = "block"
+ 		event.target.value = "Hide Our Fox";
+ 	} else {
+ 		document.getElementById('foximg').style.display = "none"
+ 		event.target.value = "Check Out Our Fox"
+ 	}
+ },
+ false
+ );
